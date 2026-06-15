@@ -69,17 +69,6 @@ export default function Books() {
                     <button className="flex-1 py-2 border border-[#FF4FA3]/20 text-[#FF4FA3] font-inter font-bold text-xs tracking-wider uppercase rounded-full hover:bg-[#FF4FA3]/10 transition-all">
                       View Details
                     </button>
-                    {bookItem.purchaseLinks && bookItem.purchaseLinks[0] && (
-                      <a
-                        href={bookItem.purchaseLinks[0].url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        onClick={(e) => e.stopPropagation()}
-                        className="flex-1 py-2 bg-gradient-to-r from-[#B45CFF] to-[#FF4FA3] text-white text-center font-inter font-bold text-xs tracking-wider uppercase rounded-full hover:shadow-[0_0_20px_rgba(255,79,163,0.4)] transition-all"
-                      >
-                        Amazon
-                      </a>
-                    )}
                   </div>
                 </div>
               </div>

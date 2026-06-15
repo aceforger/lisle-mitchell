@@ -24,7 +24,12 @@ export const book = [
     status: "published",
     statusText: "Available Now",
     themes: ["Erotic Fiction", "Romance", "Drama", "Contemporary"],
-    purchaseLinks: [{ name: "Amazon", url: "#" }],
+    purchaseLinks: [
+      {
+        name: "goodreads",
+        url: "https://www.goodreads.com/book/show/31386835-sugar-baby",
+      },
+    ],
   },
   {
     id: 2,
@@ -36,7 +41,12 @@ export const book = [
     status: "published",
     statusText: "Available Now",
     themes: ["Erotic Fiction", "Swinging", "Holiday", "Adult"],
-    purchaseLinks: [{ name: "Amazon", url: "#" }],
+    purchaseLinks: [
+      {
+        name: "goodreads",
+        url: "https://www.goodreads.com/book/show/17164926-xmas-xchange",
+      },
+    ],
   },
   {
     id: 3,
@@ -50,7 +60,12 @@ export const book = [
     status: "published",
     statusText: "Available Now",
     themes: ["Erotic Fiction", "Fantasy", "Collections", "Adult"],
-    purchaseLinks: [{ name: "Amazon", url: "#" }],
+    purchaseLinks: [
+      {
+        name: "goodreads",
+        url: "https://www.goodreads.com/book/show/21365604-sex-at-work-other-erotic-fantasies",
+      },
+    ],
   },
 ];
 
