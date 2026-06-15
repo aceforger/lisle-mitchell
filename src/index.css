@@ -1,0 +1,114 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cinzel:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #160d22;
+  font-family: "Inter", sans-serif;
+  color: #e0e0e0;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #160d22;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff4fa3;
+  border-radius: 3px;
+}
+
+.font-playfair {
+  font-family: "Playfair Display", serif;
+}
+
+.font-cormorant {
+  font-family: "Cormorant Garamond", serif;
+}
+
+.font-cinzel {
+  font-family: "Cinzel", serif;
+}
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fadeUp 0.8s ease-out forwards;
+}
+
+.animate-fade-up-delayed {
+  opacity: 0;
+  animation: fadeUp 0.8s ease-out forwards;
+  animation-delay: 0.3s;
+}
+
+.animate-fade-up-delayed-2 {
+  opacity: 0;
+  animation: fadeUp 0.8s ease-out forwards;
+  animation-delay: 0.6s;
+}
+
+.hover-lift {
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(255, 79, 163, 0.15);
+}
+
+@keyframes neonPulse {
+  0%,
+  100% {
+    box-shadow:
+      0 0 20px rgba(255, 79, 163, 0.2),
+      0 0 40px rgba(180, 92, 255, 0.1);
+  }
+  50% {
+    box-shadow:
+      0 0 30px rgba(255, 79, 163, 0.4),
+      0 0 60px rgba(180, 92, 255, 0.2),
+      0 0 80px rgba(255, 138, 205, 0.1);
+  }
+}
+
+.animate-neon-pulse {
+  animation: neonPulse 3s ease-in-out infinite;
+}
+
+@keyframes purpleGlow {
+  0%,
+  100% {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+}
+
+.animate-purple-glow {
+  animation: purpleGlow 4s ease-in-out infinite;
+}
