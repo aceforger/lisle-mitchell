@@ -52,7 +52,7 @@ export default function Navbar() {
             onClick={(e) => handleNavClick(e, "#home")}
             className="flex items-center gap-3 group"
           >
-            <span className="font-cinzel text-xl md:text-2xl text-[#FF4FA3] group-hover:text-[#FF8ACD] transition-colors tracking-wider drop-shadow-[0_0_15px_rgba(255,79,163,0.5)]">
+            <span className="font-cinzel text-2xl md:text-3xl text-[#eee3e8] group-hover:text-[#FF8ACD] transition-colors tracking-wider drop-shadow-[0_0_15px_rgba(255,79,163,0.5)] font-bold">
               {authorInfo.name}
             </span>
           </a>
@@ -63,10 +63,10 @@ export default function Navbar() {
                 key={link.name}
                 href={link.href}
                 onClick={(e) => handleNavClick(e, link.href)}
-                className={`px-5 py-2 text-sm font-inter font-medium transition-all tracking-wide ${
+                className={`px-5 py-2.5 text-base font-inter font-bold transition-all tracking-wide ${
                   activeSection === link.href.replace("#", "")
                     ? "text-[#FF4FA3]"
-                    : "text-white/50 hover:text-white"
+                    : "text-white/60 hover:text-white"
                 }`}
               >
                 {link.name}
@@ -82,7 +82,7 @@ export default function Navbar() {
             className="md:hidden p-2 text-[#FF4FA3]"
           >
             <svg
-              className="w-6 h-6"
+              className="w-7 h-7"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -91,14 +91,14 @@ export default function Navbar() {
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  strokeWidth={2}
+                  strokeWidth={2.5}
                   d="M6 18L18 6M6 6l12 12"
                 />
               ) : (
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  strokeWidth={2}
+                  strokeWidth={2.5}
                   d="M4 6h16M4 12h16M4 18h16"
                 />
               )}
@@ -108,7 +108,7 @@ export default function Navbar() {
 
         <div
           className={`md:hidden transition-all duration-300 overflow-hidden ${
-            isMobileMenuOpen ? "max-h-80 opacity-100" : "max-h-0 opacity-0"
+            isMobileMenuOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
           }`}
         >
           <div className="bg-[#1A1030]/95 border border-[#FF4FA3]/20 mt-2 p-5 backdrop-blur-xl rounded-2xl">
@@ -117,10 +117,10 @@ export default function Navbar() {
                 key={link.name}
                 href={link.href}
                 onClick={(e) => handleNavClick(e, link.href)}
-                className={`block px-5 py-3 font-inter font-medium transition-colors rounded-lg ${
+                className={`block px-5 py-4 font-inter font-bold text-lg transition-colors rounded-lg ${
                   activeSection === link.href.replace("#", "")
                     ? "text-[#FF4FA3] bg-[#FF4FA3]/10"
-                    : "text-white/50 hover:text-white"
+                    : "text-white/60 hover:text-white"
                 }`}
               >
                 {link.name}

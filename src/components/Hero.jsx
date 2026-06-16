@@ -16,7 +16,7 @@ export default function Hero() {
       {/* Background GIF */}
       <div className="absolute inset-0">
         <img
-          src="/images/bg.gif"
+          src="/images/bg2.png"
           alt="Background"
           className="w-full h-full object-cover"
         />
