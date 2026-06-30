@@ -4,9 +4,23 @@ export const authorInfo = {
   firstName: "Lisle",
   email: "lmitchell21134@yahoo.com",
   phone: "(803) 609-1631",
-  bio: "Serles is a retired university professor who taught at a major southern institution. He received three degrees from The Ohio State University, including a Ph.D. in Geography. During his career, he created a large body of work of published articles, book chapters, and professional papers. His specialty was recreation, tourism, and sports and he held leadership roles in both the Association of American Geographers and the National Association of Geographic Education.",
-  bio2: "Since retirement, he has published in three anthologies (edited by Zane, Maxim Jakubowski, and Sara Schwersenska); five eBooks (Xcite Books edited by Miranda Forbes, Elizabeth Caldwell, and Antonia Adams); two contests (Better Sex Erotic Story Contests); four websites (three in The Erotic Woman, and thirty-one stories and poems in Literotica and twenty-three narratives and verses in Lush Stories). He has published four books: Xmas Xchange, Sex at Work and other Erotic Stories, Con Man, and Transformation.",
-  roles: ["Author", "Professor", "Ph.D.", "Geographer"],
+  bio1: "Lisle S. Mitchell is a retired university professor who taught at The University of South Carolina. He received three degrees from The Ohio State University, a bachelor's degree in education, a Master's degree in geography, and a doctorate degree in geography. After graduation he took a position as an Instructor at the University of South Carolina. From that rank he was promoted to an Assistant Professorship, later he was granted the rank of an Associate Professorship, and finally, he was promoted to a Full Professorship. Upon retirement he was given the title of Distinguished Professor Emeritus.",
+  bio2: "After graduating from high school, he worked for two years for a home appliance firm, he spent two years in the United States Military, and then two additional years at a consulting engineering firm. During his career at the University of South Carolina he was extremely active in professional organizations and at the university.",
+  bio3: "During his thirty-eight year career, he created a large body of work of published articles, book chapters, and professional papers. His specialty was recreation, tourism, and sport and he held leadership roles in both the Association of American Geographers and the National Council of Geographic Education. At the University of South Carolina he was elected to the Presidency of The South Carolina Academy of Science, and to the Presidency of Sigma Xi, an honorary history fraternity.",
+  bio4: "Since retirement, he has published in three anthologies (edited by Zane, Maxim Jakubowski, and Sara Schwersenska); five eBooks (Xcite Books edited by Miranda Forbes, Elizabeth Caldwell, and Antonia Adams); two contests (Better Sex Erotic Story Contests); four websites (in The Erotic Woman), thirty-one stories and poems in Literotica, and twenty-three narratives and verses in Lush Stories. He has published two books: Sex at Work and Other Erotic Stories, and Xmas Exchange.",
+  roles: ["Author", "Distinguished Professor Emeritus", "Ph.D.", "Geographer"],
+  highlights: [
+    "Served as the Executive Secretary of the National Council for Geographic Education",
+    "Served as President of the National Council for Geographic Education",
+    "Served on a variety of committees for the University, College of Arts and Science, and the Department of Geography",
+    "Received an NSF grant, a grant from the National Endowment for the Humanities, and a grant from the President's Ford Venture Fund",
+    "Directed seventeen Master's Degrees",
+    "Published thirty-four refereed articles or book chapters",
+    "Published one-hundred and eleven abstracts, reviews, reports, and rejoinders",
+    "Published thirty-one miscellaneous publications",
+    "Presented one-hundred and thirty-nine papers at professional conferences",
+    "Engaged in hundreds of miscellaneous professional activities",
+  ],
 };
 
 export const book = [
