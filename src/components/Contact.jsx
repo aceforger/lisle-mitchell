@@ -37,7 +37,7 @@ export default function Contact() {
             </svg>
           </div>
           <div className="space-y-4">
-            <a
+            {/* <a
               href={`tel:${contactInfo.phone}`}
               className="flex items-center justify-center gap-3 w-full px-8 py-4 bg-gradient-to-r from-[#FF4FA3] to-[#B45CFF] text-white font-inter font-bold hover:from-[#FF8ACD] hover:to-[#FF4FA3] transition-all tracking-wider uppercase text-sm rounded-full shadow-[0_0_30px_rgba(255,79,163,0.3)]"
             >
@@ -55,7 +55,7 @@ export default function Contact() {
                 />
               </svg>
               {contactInfo.phone}
-            </a>
+            </a> */}
             <a
               href={`mailto:${contactInfo.email}`}
               className="flex items-center justify-center gap-3 w-full px-8 py-4 border border-[#FF4FA3]/20 text-[#FF4FA3] font-inter font-bold hover:border-[#FF4FA3] hover:bg-[#FF4FA3]/5 transition-all tracking-wider uppercase text-sm rounded-full"
