@@ -178,10 +178,24 @@ export default function About() {
           </div>
 
           <div className="grid sm:grid-cols-2 gap-4">
-            {authorInfo.highlights.map((item, i) => (
+            {[
+              "Served as the Executive Secretary of the National Council for Geographic Education",
+              "Served on a variety of committees for the University, the College of Arts and Science, and the Department of Geography",
+              "Received a National Science Foundation Institute grant on Applied Statistics in Geography",
+              "Received a grant from the National Endowment for the Humanities on Race and Class in an Urban Context",
+              "Received a grant from the President's Venture Fund for the Improvement of Undergraduate Teaching",
+              "Directed seventeen Master's degrees in the Department of Geography",
+              "Published thirty-four refereed articles or chapters",
+              "Published one hundred and eleven abstracts, reviews, reports, and rejoinders",
+              "Published thirty-one miscellaneous papers in journals",
+              "Presented one-hundred and thirty-nine papers at professional conferences",
+              "Engaged in hundreds of miscellaneous professional activities: reviewed articles for journals, organized paper sessions, paper discussant, gave lectures, etc.",
+            ].map((item, i) => (
               <div
                 key={i}
-                className="group bg-white/[0.02] backdrop-blur-sm p-5 rounded-xl border border-[#FF4FA3]/8 hover:border-[#FF4FA3]/30 transition-all duration-300 flex items-start gap-3 hover:bg-white/[0.04]"
+                className={`group bg-white/[0.02] backdrop-blur-sm p-5 rounded-xl border border-[#FF4FA3]/8 hover:border-[#FF4FA3]/30 transition-all duration-300 flex items-start gap-3 hover:bg-white/[0.04] ${
+                  i === 10 ? "sm:col-span-2" : ""
+                }`}
               >
                 <div className="w-6 h-6 bg-[#FF4FA3]/10 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5 group-hover:bg-[#FF4FA3]/20 transition-all">
                   <span className="text-[#FF4FA3] text-xs">◆</span>
